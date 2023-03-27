@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "tabKeepr",
+    "description": "Organizes tabs for you :)",
+    "version":"1.0",
+    "icons": {
+        "16": "/image/logo16.png",
+        "48": "/image/logo48.png",
+        "128": "/image/logo128.png"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": ["https://developer.chrome.com/*"],
+    "permissions": ["tabGroups"]
+  }
