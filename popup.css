@@ -6,3 +6,17 @@ body {
   p {
     margin: 0;
   }
+
+  /* class: tabList  -  add a border */
+  .tabList {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* button saveCheckedTabsButton: visibility  -  hide the button */
+  #saveCheckedTabsButton {
+    visibility: hidden;
+  }
